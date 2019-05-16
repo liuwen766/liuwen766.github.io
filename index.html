@@ -92,7 +92,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/16/商城项目第二天/" data-id="cjvq26x3m0003hch8n7uwd7c6" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/05/16/商城项目第二天/" data-id="cjvq290fo00046ch8u1l11ul9" class="article-share-link">Share</a>
       
       
     </footer>
@@ -126,16 +126,16 @@
       
         <ol>
 <li>传统架构<br>表现层→业务层→持久层→数据库</li>
-<li><p>分布式架构<br>需要按照功能点把系统拆分，拆分成独立的功能。单独为某一个节点添加服务器。需要系统之间配合才能完成整个业务逻辑。叫做分布式。（不需要session复制）<br>分布式架构：多个子系统相互协作才能完成业务流程。系统之间需要进行通信。<br>优点：<br>1、把模块拆分，使用接口通信，降低模块之间的耦合度。<br>2、把项目拆分成若干个子项目，不同的团队负责不同的子项目。<br>3、增加功能时只需要再增加一个子项目，调用其他系统的接口就可以。<br>4、可以灵活的进行分布式部署。<br>缺点：<br>1、系统之间交互需要使用远程通信，接口开发增加工作量。<br>2、各个模块有一些通用的业务逻辑无法共用。<br>3.基于SOA的架构<br>SOA：Service Oriented Architecture面向服务的架构。也就是把工程拆分成服务层、表现层两个工程。服务层中包含业务逻辑，只需要对外提供服务即可。表现层只需要处理和页面的交互，业务逻辑都是调用服务层的服务来实现。</p>
-<p>工程搭建：使用maven管理工程。<br>Maven的常见打包方式：jar、war、pom<br>Pom工程一般都是父工程，管理jar包的版本、maven插件的版本、统一的依赖管理。聚合工程。</p>
-</li>
+<li>分布式架构<br>需要按照功能点把系统拆分，拆分成独立的功能。单独为某一个节点添加服务器。需要系统之间配合才能完成整个业务逻辑。叫做分布式。（不需要session复制）<br>分布式架构：多个子系统相互协作才能完成业务流程。系统之间需要进行通信。<br>优点：<br>1、把模块拆分，使用接口通信，降低模块之间的耦合度。<br>2、把项目拆分成若干个子项目，不同的团队负责不同的子项目。<br>3、增加功能时只需要再增加一个子项目，调用其他系统的接口就可以。<br>4、可以灵活的进行分布式部署。<br>缺点：<br>1、系统之间交互需要使用远程通信，接口开发增加工作量。<br>2、各个模块有一些通用的业务逻辑无法共用。</li>
 </ol>
+<p>3.基于SOA的架构<br>    SOA：Service Oriented Architecture面向服务的架构。也就是把工程拆分成服务层、表现层两个工程。服务层中包含业务逻辑，只需要对外提供服务即可。表现层只需要处理和页面的交互，业务逻辑都是调用服务层的服务来实现。</p>
+<p>***工程搭建：使用maven管理工程。<br>    Maven的常见打包方式：jar、war、pom<br>Pom工程一般都是父工程，管理jar包的版本、maven插件的版本、统一的依赖管理。聚合工程。</p>
 <p>e3-parent：父工程，打包方式pom，管理jar包的版本号。统一配置系统的依赖插件。<br>    |           项目中所有工程都应该继承父工程。→（所有工程用的jar包版本一致）<br>    |–e3-common：通用的工具类通用的pojo。打包方式jar<br>    |–e3-manager：服务层工程。聚合工程。Pom工程<br>         |–e3-manager-dao：打包方式jar<br>         |–e3-manager-pojo：打包方式jar   （逆向工程，由表生成接口，pojo）<br>         |–e3-manager-interface：打包方式jar<br>         |–e3-manager-service：打包方式：jar<br>         |–e3-manager-web：表现层工程。打包方式war</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/16/第一天学习内容/" data-id="cjvq26x3n0004hch81h9wxgpg" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/05/16/第一天学习内容/" data-id="cjvq290fm00036ch8eqw839yt" class="article-share-link">Share</a>
       
       
     </footer>
@@ -172,7 +172,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/15/商城项目第一天/" data-id="cjvq26x3i0001hch8gqryz60f" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/05/15/商城项目第一天/" data-id="cjvq290fi00016ch89p3yfqrw" class="article-share-link">Share</a>
       
       
     </footer>
@@ -212,7 +212,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/15/我的第一篇博客：如何搭建博客/" data-id="cjvq26x3k0002hch8pmxr3yq8" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/05/15/我的第一篇博客：如何搭建博客/" data-id="cjvq290fl00026ch8gh33rm41" class="article-share-link">Share</a>
       
       
     </footer>
@@ -257,7 +257,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/15/hello-world/" data-id="cjvq26x3c0000hch8iuq24i14" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/05/15/hello-world/" data-id="cjvq290fd00006ch8ntf2riq8" class="article-share-link">Share</a>
       
       
     </footer>
